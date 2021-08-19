@@ -1,0 +1,267 @@
+body{
+  text-align:center;
+
+}
+.colored-section {
+  background-color: #bedbbb;
+  padding: 2% 5% 5%;
+
+}
+h1,h2 {
+  text-align: center;
+  color:#fff;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 4px;
+}
+.nav-link {
+  font-family: "Montserrat";
+  font-size: 1rem;
+  font-weight: 400;
+}
+/* Title Section */
+#Title{
+  background-image:url("Images/vegewood.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.home-element{
+  padding:0 10% 10%;
+}
+.Title-heading{
+  font-family:"Montserrat";
+  font-weight:900;
+  font-size: 3.5rem;
+  height:3rem;
+  color:#fff;
+  text-align:Center;
+}
+.title-paragraph{
+  padding: 0 10% 20%;
+  position: relative;
+  margin: 20% 0 0;
+  color:#fff;
+  font-size:1.5rem;
+}
+/* Products Section */
+#vegetable-section{
+  padding:5% 5%;
+  background-image:url("Images/fruitback1.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.vs-heading1{
+  font-family:"Montserrat";
+  font-weight:900;
+  text-align:center;
+  color:#fff;
+}
+.vege-items{
+  text-align:center;
+  font-size:1.5rem;
+  margin-top:5%;
+}
+.vege-images{
+  height:200px;
+  width:200px;
+  margin:0 20% 0;
+  border-radius: 100px;
+}
+.vege-buttons{
+  margin-top:10%;
+}
+.carousel-control-prev,.carousel-control-next{
+  width: 2%;
+}
+
+/* FRUITS SECTION */
+#fruit-section{
+  padding:5% 5%;
+  background-image:url("Images/fruitback1.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.fruit-items{
+  text-align:center;
+  font-size:1.5rem;
+  margin-top:5%;
+}
+.fruit-images{
+  height:200px;
+  width:200px;
+  margin:0 20% 0;
+  border-radius: 50px;
+}
+.fruit-buttons{
+  margin-top:10%;
+}
+/* DRYFRUIT SECTION */
+#dryfruit-section{
+  padding:5% 5%;
+  background-image:url("Images/fruitback1.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.dryfruit-items{
+  text-align:center;
+  font-size:1.5rem;
+  margin-top:5%;
+}
+.dryfruit-images{
+  height:200px;
+  width:200px;
+  margin:0 20% 0;
+  border-radius: 100px;
+}
+.dryfruit-buttons{
+  margin-top:10%;
+}
+/* Testimonial Section */
+
+.testimonial-item{
+  padding:7% 15%;
+}
+.test1{
+  background-image:url("Images/back1.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.test2{
+  background-image:url("Images/mixdry.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.testimonial-images{
+  height:180px;
+  width:180px;
+  border-radius:100px;
+  margin-top: 2%;
+  text-align: center;
+}
+.testimonial-heading{
+  font-family: "ubuntu";
+  font-weight:800;
+  font-size: 3rem;
+  padding:40px 20px 20px;
+  text-align: center;
+  color:#fff;
+}
+em{
+  color:#fff;
+}
+/* ABOUT US SECTION */
+#aboutus{
+  padding:5% 10%;
+  background-image:url("Images/vegeback.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color:#fff;
+}
+.about-us{
+  text-align:center,justify;
+  color:#fff;
+}
+.aboutus-img{
+  background-image:url("Images/vegemix.jfif");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* Signup Section */
+#signin{
+background-image: url("Images/darkwood.jfif");
+background-size: cover;
+background-repeat: no-repeat;
+height: 100%;
+font-family: 'Numans', sans-serif;
+padding:5%;
+}
+.container{
+height: 100%;
+align-content: center;
+}
+
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+
+.card-header h3{
+color: white;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: black;
+background-color: #FFC312;
+width: 100px;
+}
+
+.login_btn:hover{
+color: black;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
+/* Contact-Us Section */
+#contact-us{
+padding:10% 15%;
+background-image: url("Images/back2.jfif");
+background-size: cover;
+background-repeat: no-repeat;
+height:-50%;
+width:100%;
+}
+.contact-icon{
+  margin:20px 10px;
+  padding-top: 15%;
+  color: #fff;
+}
+@media (max-width:500px) {
+.Title-heading{
+  padding-bottom:140%;
+}
+}
